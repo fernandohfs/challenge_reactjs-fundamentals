@@ -92,7 +92,7 @@ const Dashboard: React.FC = () => {
                   <tr key={id}>
                     <td className="title">{title}</td>
                     <td className={type}>
-                      {type === 'outcome' && '- '}
+                      {type === 'outcome' && '-'}
                       {formatValue(value)}
                     </td>
                     <td>{category.title}</td>
